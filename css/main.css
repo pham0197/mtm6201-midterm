@@ -226,7 +226,21 @@ max-width: fit-content;
     top: 0;
     left: 0;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner-text {
+    max-width: var(--mw);
     color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px 0;
+    text-align: center;
 }
 
 .wrapper-menu-loca h3 {
@@ -566,20 +580,23 @@ max-width: fit-content;
 
     /* Menu Location section */
     
-   
-   
-    .wrapper-menu-loca {
-        display: grid;
-        gap: 10px;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-      
+    
+    
+    .inner-text {
+        max-width: var(--mw);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: space-between;
+        padding: 40px;
+        text-align: center;
     }
+   
     .menu,
     .location {
-        padding: 50px;
-        margin: auto;
-       
+       flex: 1 1;
+       text-align: center;
     }
 
     /* About us section */
