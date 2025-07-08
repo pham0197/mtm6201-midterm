@@ -239,12 +239,12 @@ max-width: fit-content;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
-    padding: 40px 0;
+    padding: 40px;
     text-align: center;
 }
 
 .wrapper-menu-loca h3 {
-    margin-top: 60px;
+    margin-top: 15px;
     margin-bottom: 10px;
     text-transform: uppercase;
     color: var(--light);
@@ -276,7 +276,7 @@ max-width: fit-content;
     color: var(--white);
     background-color:  rgba(0, 0, 0, 0.01);
     padding: 15px;
-   
+    margin-bottom: 10px;
         
 }
     
@@ -357,7 +357,7 @@ max-width: fit-content;
 
  .overlay-text {
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 20%;
     transform: translate(-10%, 230%);
 
