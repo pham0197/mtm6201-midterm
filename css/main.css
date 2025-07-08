@@ -408,15 +408,6 @@ max-width: fit-content;
  
 
 
-
-
-
-
-
-
-
-
-
 /* Mobile responsiveness */
 @media (max-width: 767px){
     .nav-list {
@@ -530,9 +521,6 @@ max-width: fit-content;
         color: var(--white);
     }
 
-
-
-
        /* Welcome section */
     .welcome-content {
         display: grid;
@@ -556,13 +544,12 @@ max-width: fit-content;
         /* Offer section */
     .offer-content {
         display: grid;
-        grid-template-columns: 1 fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         gap: 20px;
         justify-items: center;
     }
 
-   
     .box:last-child {
         grid-column:  1 / span 2;
         justify-self: center;
@@ -579,13 +566,12 @@ max-width: fit-content;
     /* Customers section */
     #customers {
         display: grid;
-        grid-template-columns: 1 fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         gap: 20px;
         justify-items: center;
     }
 
-   
     #customers-box:last-child {
         grid-column:  1 / span 2;
         justify-self: center;
@@ -596,7 +582,10 @@ max-width: fit-content;
 }
 
 
+
+
  /* Deskstop responsiveness */
+
 @media (min-width: 1025px) {
     h1 {
         font-size: 3.875rem;
@@ -635,8 +624,7 @@ max-width: fit-content;
         max-width: 800px;
         margin: 0 auto;
     }
-   
-    
+     
     .hero h1 {
         margin-top: 250px;
         font-size: 3.5rem;
@@ -671,6 +659,7 @@ max-width: fit-content;
     }
 
         /* Offer section */
+        
     .offer-content {
         display: flex;
         gap: 20px;
@@ -678,9 +667,7 @@ max-width: fit-content;
     }
 
     /* Menu Location section */
-    
-    
-    
+
     .inner-text {
         max-width: var(--mw);
         width: 100%;
