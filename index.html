@@ -14,12 +14,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
 </head>
+
 <body>
+    <a href="#content" class="skip-link">Skip to main content</a>
             <!--Header-->
      <header id="header-container" >
             <!--Navigation section-->
         <div class="header-wrapper">
-            <nav class="navbar">
+            <nav class="navbar" role="navigation">
                 <a href="index.html" class="logo">
                     <img src="images/my-coffee-shop-logo.svg" alt="My Coffee House Logo">
                 </a>
@@ -36,7 +38,7 @@
         
             <hr>
             <!--Hero section-->
-            <section class="hero">
+            <section class="hero" role="main">
                 <div class="hero-content">
                     <h1>
                         Experience coffee like never before
@@ -52,7 +54,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="content">
         <div class="wrapper"> 
                     <!--Welcome section-->
             <section class="welcome">
@@ -213,7 +215,7 @@
 
         <hr>
                 <!--Footer-->
-        <footer>
+        <footer role="contentinfo">
             <p class="footer">
                 © My Coffee Company 2025
             </p>

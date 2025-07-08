@@ -55,6 +55,23 @@ hr {
 
 }
 
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 0;
+    top: 0;
+    background: #000000;
+    color: #ffffff;
+    padding: 1em;
+    z-index: 1000;
+}
+
+
+
+
 /* Header section*/
 
 .navbar {
@@ -85,6 +102,12 @@ hr {
     text-transform: uppercase;
 }
 
+.nav-list a:hover,
+.nav-list a:focus {
+    color: var(--light);
+    transition: color 0.3s ease-in-out;
+
+}
 header {
     background-size: cover;
     background-position: center;
@@ -139,16 +162,30 @@ max-width: fit-content;
     color: var(--black);
     background-color: var(--white);
     padding: 15px;
-   
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .explore-button:hover {
     display: inline-block;
     color:var(--white);
     background-color: var(--dark);
+    transform: scale(1.05);
    
 }
+@keyframes fadeSlideup {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+.hero-content {
+    animation: fadeSlideup 1.2s ease-out;
+}
 
 
     /* Welcome section */
@@ -304,13 +341,14 @@ max-width: fit-content;
     background-color:  rgba(0, 0, 0, 0.01);
     padding: 15px;
     margin-bottom: 10px;
-        
+    transition: background-color 0.3s ease, transform 0.3s ease;
+   
 }
     
 .location-button:hover {
         color:var(--white);
         background-color: var(--dark);
-       
+        transform: scale(1.05);
     }
 
 /* About section */
@@ -339,13 +377,15 @@ max-width: fit-content;
     padding: 15px 50px;
     margin-top: 20px;
     font-size: larger;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
     
 .about-button:hover {
     display: inline-block;
     color:var(--white);
     background-color: var(--dark);
-       
+    transform: scale(1.05);
 }
  /* Customers section */
 
@@ -475,7 +515,7 @@ max-width: fit-content;
 
 
 /* Tablet responsiveness */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1099px){
     
     h1 {
         font-size: 3rem;
@@ -586,7 +626,7 @@ max-width: fit-content;
 
  /* Deskstop responsiveness */
 
-@media (min-width: 1025px) {
+@media (min-width: 1100px) {
     h1 {
         font-size: 3.875rem;
     }
@@ -659,7 +699,7 @@ max-width: fit-content;
     }
 
         /* Offer section */
-        
+
     .offer-content {
         display: flex;
         gap: 20px;
