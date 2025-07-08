@@ -166,7 +166,7 @@ max-width: fit-content;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-
+ 
 
  /* Offer section */
 
@@ -207,6 +207,33 @@ max-width: fit-content;
     object-fit: contain;
     display: block;
     margin: 0 auto;  
+ }
+
+ #coffee {
+    opacity: 1;
+    transition: opacity 0.3s;
+ }
+ #coffee:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+ }
+
+ #goods {
+    opacity: 1;
+    transition: opacity 0.3s;
+ }
+ #goods:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+ }
+
+ #love {
+    opacity: 1;
+    transition: opacity 0.3s;
+ }
+ #love:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
  }
  
  /* Menu - Locations section */
