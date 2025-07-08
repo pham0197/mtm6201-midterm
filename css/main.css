@@ -359,7 +359,7 @@ max-width: fit-content;
     position: absolute;
     top: 0%;
     left: 20%;
-    transform: translate(-10%, 230%);
+    transform: translate(-10%, 180%);
 
  }
 
@@ -595,6 +595,9 @@ max-width: fit-content;
     .hambuger {
         display: none;
     }
+    .menubar {
+        display: none;
+    }
     nav {
         font-family: var(--l-ss);
         max-width: var(--mw);
@@ -735,9 +738,6 @@ max-width: fit-content;
         transform: translate(-10%, -10%);
 
     }
-
-
-
 
     footer {
         max-width: var(--mw);
