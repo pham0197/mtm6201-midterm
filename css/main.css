@@ -52,7 +52,6 @@ a {
 }
 hr {
     color: var(--white);
-
 }
 
 .skip-links {
@@ -484,7 +483,7 @@ header .header-wrapper {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 200px;
+        width: 130px;
         padding: 1em;
         z-index: 1000;
         text-align: center;
@@ -567,7 +566,7 @@ header .header-wrapper {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 200px;
+        width: 150px;
         padding: 1em;
         z-index: 1000;
         text-align: center;
