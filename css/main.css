@@ -55,12 +55,12 @@ hr {
 
 }
 
-.skip-link {
+.skip-links {
     position: absolute;
     left: -9999px;
 }
 
-.skip-link:focus {
+.skip-links:focus {
     left: 0;
     top: 0;
     background: #000000;
@@ -145,9 +145,8 @@ header .header-wrapper {
     text-transform: uppercase;
     margin-top: 120px;
     margin-bottom: 30px;
-
-
 }
+
 .hero p {
    
     margin-bottom: 40px;

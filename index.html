@@ -16,12 +16,16 @@
 </head>
 
 <body>
-    <a href="#content" class="skip-link">Skip to main content</a>
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#content">Skip to main content</a></li>
+      </ul>
+  
             <!--Header-->
-     <header id="header-container" >
+     <header id="header-container" role="banner">
             <!--Navigation section-->
         <div class="header-wrapper">
-            <nav class="navbar" role="navigation">
+            <nav class="navbar" role="navigation" id="nav">
                 <a href="index.html" class="logo">
                     <img src="images/my-coffee-shop-logo.svg" alt="My Coffee House Logo">
                 </a>
@@ -40,7 +44,7 @@
             <!--Hero section-->
             <section class="hero" role="main">
                 <div class="hero-content">
-                    <h1>
+                    <h1 role="heading">
                         Experience coffee like never before
                     </h1>
                     <p>
@@ -54,7 +58,7 @@
         </div>
     </header>
 
-    <main id="content">
+    <main id="content" role="main">
         <div class="wrapper"> 
                     <!--Welcome section-->
             <section class="welcome">
